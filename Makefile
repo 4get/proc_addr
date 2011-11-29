@@ -1,4 +1,4 @@
-MODULENAME = kparam
+MODULENAME = proc_addr
 obj-m := $(MODULENAME).o
 KERNELDIR=/workspace/trident/cowork_trident/kernel/linux-2.6.34
 PWD := $(shell pwd)

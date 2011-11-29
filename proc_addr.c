@@ -6,16 +6,17 @@
 
 MODULE_LICENSE("Dual BSD/GPL");
 
-static int kparam_init(void)
+static int proc_addr_init(void)
 {   
+	printk("proc_addr init\n");
 	return 0;
 }   
 
-static void kparam_exit(void)
+static void proc_addr_exit(void)
 {
-	printk("kparam exit\n");
+	printk("proc_addr exit\n");
 }
 
-module_init(kparam_init);
-module_exit(kparam_exit);
+module_init(proc_addr_init);
+module_exit(proc_addr_exit);
 

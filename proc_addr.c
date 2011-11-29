@@ -197,5 +197,4 @@ static int log_to_file(struct file *my_file, char *buf, unsigned int buf_len)
 module_init(test_init);
 module_exit(test_exit);
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("lullaby2005@gmail.com");
 

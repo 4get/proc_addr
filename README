@@ -1,0 +1,1 @@
+rmmod proc_addr; insmod proc_addr.ko pid_from_user=658 log_file="/log.m1"

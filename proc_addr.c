@@ -17,7 +17,7 @@
 #define BUF_LEN 100
 
 static int pid_from_user = 0;
-static char *log_file = "/home/my_kernel_log_test";
+static char *log_file = "/log.m1";
 static int get_walk_page_status = 0;
 static struct file *log_file_struct = NULL;
 static mm_segment_t old_fs;

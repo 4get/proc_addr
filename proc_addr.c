@@ -30,7 +30,7 @@ module_param(log_file, charp, 0);
 
 static int __init test_init()
 {
-	printk("Hello world!\n");
+	printk("init!\n");
 
 	int status = 0;
 	unsigned int i = 0;
